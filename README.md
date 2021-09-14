@@ -37,3 +37,4 @@ services:
       - <Path to watch>:/watch
     restart: unless-stopped
     network_mode: service:vpn	# Network via the above vpn service
+```
